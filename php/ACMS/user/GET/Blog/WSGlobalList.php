@@ -1,10 +1,10 @@
 <?php
 
-// /php/ACMS/User/GET/Blog/GlobalList.php
+// /php/ACMS/User/GET/Blog/WSGlobalList.php
 
 require_once ACMS_LIB_DIR.'GET.php';
 
-class ACMS_GET_Blog_GlobalList extends ACMS_GET
+class ACMS_User_GET_Blog_WSGlobalList extends ACMS_GET
 {
 
 	function get()

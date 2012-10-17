@@ -1,11 +1,11 @@
-# a-blog cms module "blogGlobalList"
+# a-blog cms module "BlogWSGlobalList"
 # Author: Seiko Kuchida
 # Copyright 2012 WebbingStudio
 
 
 概要
 
-このプラグインは、公開状態・管理画面に関係なく、登録されている全てのブログ一覧を表示します。
+公開状態・管理画面に関係なく、登録されている全てのブログ一覧を表示する、a-blog cms用の非公式モジュールです。
 管理画面にブログ間移動リンクを追加したいときにご利用ください。
 http://code1616.net/ablogcms/entry-32.html
 
@@ -17,6 +17,7 @@ http://code1616.net/ablogcms/entry-32.html
 
 a-blog cms 1.4.2以上
 
+
 インストール方法
 
 1. ファイルを解凍する
@@ -25,7 +26,7 @@ a-blog cms 1.4.2以上
 
 サンプルコード
 
-<!-- BEGIN_MODULE Blog_GlobalList -->
+<!-- BEGIN_MODULE Blog_WSGlobalList -->
 ブログの管理画面を移動する
 	<ul>
 <!-- BEGIN blog:loop -->
@@ -33,7 +34,7 @@ a-blog cms 1.4.2以上
 <!-- END blog:loop -->
 				</ul>
 			</li>
-<!-- END_MODULE Blog_GlobalList -->
+<!-- END_MODULE Blog_WSGlobalList -->
 
 
 更新履歴
