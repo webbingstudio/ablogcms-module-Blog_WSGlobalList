@@ -34,14 +34,12 @@ a-blog cms 1.4.2以上
 サンプルコード
 ------------------------------------
 
-> <!-- BEGIN_MODULE Blog_WSGlobalList -->
-> ブログの管理画面を移動する
-> <ul>
-> <!-- BEGIN blog:loop -->
->     <li><a href="http://{domain}/bid/{id}/admin/top/">{name} (ID:{id})</a></li>
-> <!-- END blog:loop -->
-> </ul>
-> <!-- END_MODULE Blog_WSGlobalList -->
+    <!-- BEGIN_MODULE Blog_WSGlobalList -->
+    ブログの管理画面を移動する
+    <ul>
+    <!-- BEGIN blog:loop -->
+        <li><a href="http://{domain}/bid/{id}/admin/top/">{name} (   D:{id})</a></li>       <!-- END blog:loop -->       </ul>
+    <!-- END_MODULE Blog_WSGlobalList -->
 
 更新履歴
 ------------------------------------
